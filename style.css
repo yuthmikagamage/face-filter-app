@@ -6,11 +6,24 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  flex-direction: column;
+}
+
+#startBtn {
+  position: absolute;
+  z-index: 10;
+  padding: 14px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: white;
+  color: black;
 }
 
 .container {
-  width: 1080px;
-  height: 1080px;
+  width: 720px;
+  height: 720px;
   position: relative;
 }
 
